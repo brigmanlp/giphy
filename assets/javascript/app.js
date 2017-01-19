@@ -34,7 +34,7 @@ function displaygifDiv(){
 	// rating - (optional) limit results to those rated (y,g, pg, pg-13 or r).
 	// lang - (optional) specify default country for regional content; format is 2-letter ISO 639-1 country code. See list of supported languages here
 	// fmt - (optional) return results in html or json format (useful for viewing responses as GIFs to debug/test)
-	var queryURL = "http://api.giphy.com/v1/gifs/search?q=" +
+	var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
         fruit + "&api_key=dc6zaTOxFJmzC&limit=10&offset=2&rating=y";
         // "&api_key=dc6zaTOxFJmzC&limit=10&offset=2&rating=pg"
 
